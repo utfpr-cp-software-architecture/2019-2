@@ -14,6 +14,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Cliente {
+    
+    private int id;
 
     @EqualsAndHashCode.Include
     private String nome;

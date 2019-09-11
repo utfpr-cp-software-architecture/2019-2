@@ -16,15 +16,17 @@ public class App {
 
     public static void main(String[] args) {
         
+        new App();
+
         try {
             var paisNegocio = new PaisNegocio();
-            
-            paisNegocio.incluir(new Pais("Brasil", SiglaPais.BR));
-            paisNegocio.incluir(new Pais("Estados Unidos", SiglaPais.EUA));
-            paisNegocio.incluir(new Pais("Japão", SiglaPais.JP));
+
+            paisNegocio.incluir(new Pais(0, "Brasil", SiglaPais.BR));
+            paisNegocio.incluir(new Pais(0, "Estados Unidos", SiglaPais.EUA));
+            paisNegocio.incluir(new Pais(0, "Japão", SiglaPais.JP));
 
             var clienteNegocio = new ClienteNegocio();
-        
+
             var cliente1 = new Cliente();
             cliente1.setNome("John Doe");
             cliente1.setIdade(27);
@@ -50,17 +52,17 @@ public class App {
 
         } catch (NomeMenorCincoCaracteresException ex) {
             Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
-        
+
         } catch (ObjetoJaExisteException ex) {
             Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
-        
+
         } catch (PaisNaoDefinidoException ex) {
             Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
-        
+
         } catch (TelefoneNaoCorrespondePaisException ex) {
             Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+
     }
 
 }
