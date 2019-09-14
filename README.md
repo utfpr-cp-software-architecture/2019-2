@@ -13,3 +13,12 @@ This project covers few example requirements to demonstrate coupling, cohesion a
 
 ### week-02
 This project implements all requirements for our fictitious system 01. The implementation includes SOLID principles, factory method design pattern, and advanced Java language resources.
+
+### week-03
+This project introduces layers. Whereas one layer covers business requirements, the other covers database management. The database management layer uses the Data Access Object pattern. This concludes all requirements for system example 01.
+
+### week-04A
+This project extends existent DAOs to include update and delete functionality.
+
+### week-04B
+This project uses the Template Method to reduce code repetition on DAO classes and to keep the persistence layer closed to change, but open to extension.

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entity-mappings v="5.3" rws="_15682412197982" Pws="_15682412197982" cws="_15682412197982" persistenceUnitName="DEFAULT_PU" sm="false" xs="false" id="_15682412197981" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm orm_2_1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <entity compositePrimaryKeyClass="ClientePK" abs="false" class="Cliente" pclass="Entity_1" v="true" xre="false" m="false" rootElement="_15682412197981" id="_15682413457373">
+        <ath>gabriel</ath>
+        <removedAttributes>
+            <i>attribute</i>
+        </removedAttributes>
+        <attributes>
+            <basic attribute-type="String" v="true" name="nome" pname="attribute" id="_156824142301512"/>
+            <basic attribute-type="int" v="true" xvt="" name="idade" pname="attribute" id="_156824142637813">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="String" v="true" xvt="" name="telefone" pname="attribute" id="_156824142869914">
+                <xwm/>
+                <xm/>
+            </basic>
+            <basic attribute-type="double" v="true" xvt="" name="limiteCredito" pname="attribute" id="_156824143180515">
+                <xwm/>
+                <xm/>
+            </basic>
+            <many-to-one primaryKey="false" connected-entity-id="_15682413502146" v="true" name="pais" id="_156824156154419"/>
+            <id attribute-type="Long" v="true" name="id" id="_15682413457914">
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Cliente.findAll">
+            <query>Select e from Cliente e</query>
+        </nq>
+        <nq e="false" name="Cliente.findByNome">
+            <query>Select c from Cliente c where c.nome=:nome</query>
+        </nq>
+        <nq e="false" name="Cliente.findByIdade">
+            <query>Select c from Cliente c where c.idade=:idade</query>
+        </nq>
+        <nq e="false" name="Cliente.findByTelefone">
+            <query>Select c from Cliente c where c.telefone=:telefone</query>
+        </nq>
+        <nq e="false" name="Cliente.findByLimiteCredito">
+            <query>Select c from Cliente c where c.limiteCredito=:limiteCredito</query>
+        </nq>
+        <nq e="false" name="Cliente.findByAttribute">
+            <query>Select c from Cliente c where c.attribute=:attribute</query>
+        </nq>
+    </entity>
+    <entity compositePrimaryKeyClass="PaisPK" abs="false" class="Pais" pclass="Entity_2" v="true" xre="false" m="false" rootElement="_15682412197981" id="_15682413502146">
+        <ath>gabriel</ath>
+        <attributes>
+            <basic attribute-type="String" v="true" name="nome" pname="attribute" id="_156824146116317"/>
+            <basic attribute-type="String" v="true" name="siglaPais" pname="attribute" id="_156824158007020"/>
+            <id attribute-type="Long" v="true" name="id" id="_15682413502167">
+                <generated-value strategy="DEFAULT"/>
+            </id>
+        </attributes>
+        <nq e="false" name="Pais.findAll">
+            <query>Select e from Pais e</query>
+        </nq>
+        <nq e="false" name="Pais.findByNome">
+            <query>Select p from Pais p where p.nome=:nome</query>
+        </nq>
+        <nq e="false" name="Pais.findBySiglaPais">
+            <query>Select p from Pais p where p.siglaPais=:siglaPais</query>
+        </nq>
+    </entity>
+    <c/>
+    <wsl>
+        <ws n="Main" id="_15682412197982">
+            <i ref="_15682413457373" x="84" y="44"/>
+            <i ref="_15682413502146" x="373" y="74"/>
+        </ws>
+    </wsl>
+</entity-mappings>
