@@ -22,3 +22,6 @@ This project extends existent DAOs to include update and delete functionality.
 
 ### week-04B
 This project uses the Template Method to reduce code repetition on DAO classes and to keep the persistence layer closed to change, but open to extension.
+
+### week-05
+This project features the use of the Template Method design pattern applied to 3 DAO classes of Siacoes system.
