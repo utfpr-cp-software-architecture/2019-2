@@ -25,3 +25,6 @@ This project uses the Template Method to reduce code repetition on DAO classes a
 
 ### week-05
 This project features the use of the Template Method design pattern applied to 3 DAO classes of Siacoes system.
+
+### week-07
+This project introduces the Spring Boot framework. The framework is used to reproduce the persistence layer of software example 01.
