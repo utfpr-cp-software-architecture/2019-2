@@ -28,3 +28,6 @@ This project features the use of the Template Method design pattern applied to 3
 
 ### week-07
 This project introduces the Spring Boot framework. The framework is used to reproduce the persistence layer of software example 01.
+
+### week-10
+This project shows the use of MVC, Front-Controller and Application-Controller as implemented by Spring Boot. 
