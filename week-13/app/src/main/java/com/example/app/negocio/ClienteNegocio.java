@@ -1,7 +1,7 @@
 package com.example.app.negocio;
 
+import com.example.app.negocio.dominio.ClienteDTO;
 import com.example.app.negocio.excecao.ObjetoJaExisteException;
-import com.example.app.dto.ClienteDTO;
 import java.util.HashSet;
 import java.util.Set;
 

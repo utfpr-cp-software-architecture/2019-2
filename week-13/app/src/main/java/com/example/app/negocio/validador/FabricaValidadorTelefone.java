@@ -1,6 +1,8 @@
 package com.example.app.negocio.validador;
 
-import com.example.app.dto.SiglaPaisDTO;
+import com.example.app.negocio.dominio.SiglaPaisDTO;
+
+
 
 
 public interface FabricaValidadorTelefone {

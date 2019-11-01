@@ -1,5 +1,6 @@
 package com.example.app.negocio;
 
+
 import com.example.app.negocio.excecao.ObjetoJaExisteException;
 import java.util.Set;
 

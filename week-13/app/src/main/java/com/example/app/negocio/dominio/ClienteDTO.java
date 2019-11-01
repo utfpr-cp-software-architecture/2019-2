@@ -1,8 +1,8 @@
-package com.example.app.dto;
+package com.example.app.negocio.dominio;
 
-import com.example.app.negocio.validador.FabricaValidadorTelefone;
 import com.example.app.negocio.excecao.NomeMenorCincoCaracteresException;
 import com.example.app.negocio.excecao.PaisNaoDefinidoException;
+import com.example.app.negocio.validador.FabricaValidadorTelefone;
 import com.example.app.negocio.validador.TelefoneNaoCorrespondePaisException;
 import lombok.AllArgsConstructor;
 import lombok.Data;
