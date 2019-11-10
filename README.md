@@ -34,3 +34,6 @@ This project shows the use of MVC, Front-Controller and Application-Controller a
 
 ### week-13
 This project groups projects week-10 (presentation layer), week-07 (persistence layer) and week-03 (business layer) into a single project.
+
+### week-14
+This project adds a service layer that provides REST services for Pais.
