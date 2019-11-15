@@ -37,3 +37,9 @@ This project groups projects week-10 (presentation layer), week-07 (persistence 
 
 ### week-14
 This project adds a service layer that provides REST services for Pais.
+
+### week-15
+This project includes a REST service for Cliente.
+
+### week-16
+This project shows how to transform a DAO maven project into a REST service with Spring Boot.
